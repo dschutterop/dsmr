@@ -16,7 +16,7 @@
 "0-0:96.13.0": ["Text message max 1024 characters.", "text_message", "^.*\((.*)\)"],
 "0-0:96.13.1": ["Text message max 1024 characters.", "text_message", "^.*\((.*)\)"],
 "1-0:1.8.1": ["Meter Reading electricity delivered to client (Tariff 1) in 0,001 kWh", "power_consumed_tariff_1_kwh", "^.*\((.*)\*kWh\)"],
-"1-0:1.8.2": ["Meter Reading electricity delivered to client (Tariff 2) in 0,001 kWh", "power_consumes_tariff_2_kwh", "^.*\((.*)\*kWh\)"],
+"1-0:1.8.2": ["Meter Reading electricity delivered to client (Tariff 2) in 0,001 kWh", "power_consumed_tariff_2_kwh", "^.*\((.*)\*kWh\)"],
 "1-0:2.8.1": ["Meter Reading electricity delivered by client (Tariff 1) in 0,001 kWh", "power_produced_tariff_1_kwh", "^.*\((.*)\*kWh\)"],
 "1-0:2.8.2": ["Meter Reading electricity delivered by client (Tariff 2) in 0,001 kWh", "power_produced_tariff_2_kwh", "^.*\((.*)\*kWh\)"],
 "1-0:1.7.0": ["Actual electricity power delivered (+P) in 1 Watt resolution", "power_consumed_watts", "^.*\((.*)\*kW\)"],
