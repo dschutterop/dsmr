@@ -23,13 +23,13 @@ DEBUG = False
 
 #[ MQTT Parameters ]
 MQTT_ENABLED = True
-MQTT_BROKER = '10.128.0.152'
+MQTT_BROKER = 'mqtt.localdomain'
 MQTT_PORT = 1883
 MQTT_CLIENT_UNIQ = 'smartmeter-1'
 MQTT_TOPIC_PREFIX = 'dsmr'
 MQTT_AUTH = True
-MQTT_USER = 'dsmr'
-MQTT_PASS = 'dsmr'
+MQTT_USER = 'dsmr' #username
+MQTT_PASS = 'dsmr' # password
 MQTT_QOS = 0
 MQTT_RETAIN = False
 
@@ -46,10 +46,10 @@ SER.timeout = 20
 
 #[ InfluxDB parameters ]
 INFLUXDB_ENABLED = True
-INFLUXDB_HOST = '10.128.0.155'
+INFLUXDB_HOST = 'influxdb.localdomain'
 INFLUXDB_PORT = 8086
-INFLUXDB_USER = 'dsmr'
-INFLUXDB_PASS = 'dsmr'
+INFLUXDB_USER = 'dsmr' #username
+INFLUXDB_PASS = 'dsmr' #password
 INFLUXDB_DB = 'dsmr'
 
 def signal_handler(signal, handler):
